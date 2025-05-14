@@ -1,2 +1,27 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VkJVVOAn)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19517388&assignment_repo_type=AssignmentRepo)
+## Assignment 1
+
+
+### Project Structure
+
+Ex1
+ ├─configs : include all the configuration file
+ │      dense161_custom.py 
+ │      inception_v3_custom.py
+ │      mobilenet_v3_lager_custom.py
+ │      resnet50_custom.py
+ │      resnet50_custom_0.py : baseline
+ │      resnet50_custom_1.py : frozen_stages=1
+ │      resnet50_custom_1e-2.py : lr = 1e-2
+ │      resnet50_custom_1e-3.py : lr = 1e-2
+ │      resnet50_custom_1e-4.py : lr = 1e-2
+ │      resnet50_custom_2.py : frozen_stages=2
+ │      resnet50_custom_3.py : frozen_stages=3
+ │      resnet50_custom_4.py : frozen_stages=4
+ │      resnext50_custom.py
+ │
+ └─work_dirs : include the lastest saved trained model
+
+Ex2
+    assignment1.pdf : our report
+    best_model.pth : the saved trained model
+    main.py : our completed script file
