@@ -6,6 +6,13 @@
 ### Project Structure
 ```
 Ex1
+ │  data_preprocess.py : Use BaseDT to preprocess data
+ │  frozen_states.ipynb : Use to compare different frozen_states
+ │  log_analsys.ipynb : Use MMPretrain's log_analsys tool to create curve
+ │  lr.ipynb : Use to compare different learning rate
+ │  pretrained_model.ipynb : Use to compare different pretrained model
+ │  train.ipynb : Use to train baseline model
+ │
  ├─configs : include all the configuration file
  │      dense161_custom.py 
  │      inception_v3_custom.py
@@ -21,9 +28,8 @@ Ex1
  │      resnet50_custom_4.py : frozen_stages=4
  │      resnext50_custom.py
  │
- └─work_dirs : include the lastest saved trained model
-```
-```
+ └─work_dirs : include the lastest saved trained model, .pth file please get from BaiduNetdisk
+
 Ex2
 ├── assignment1.pdf : our report
 ├── best_model.pth : the saved trained model
