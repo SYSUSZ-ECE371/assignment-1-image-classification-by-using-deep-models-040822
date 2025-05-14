@@ -1,5 +1,7 @@
 ## Assignment 1
-说明：由于部分模型文件大小超过100MB，超过Github单文件上限，无法上传。
+说明：由于Ex1的模型文件大小超过100MB，超过Github单文件上限，无法上传，Ex1的所有pth文件请见以下网盘链接。
+模型文件链接: https://pan.baidu.com/s/1sqTnGiRCnD04FtqALZDYRA?pwd=772w 提取码: 772w 
+
 
 ### Project Structure
 ```
